@@ -1,3 +1,7 @@
+* {
+  font-family: oswald, sans-serif;
+}
+
 body {
   background-color: rgb(34, 20, 3);
 }
@@ -33,6 +37,7 @@ body {
   text-decoration: none;
   font-size: 13px;
   color: white;
+  transition: 1s;
 }
 
 .button:hover {
@@ -52,6 +57,7 @@ p.regularizer {
 }
 
 .hero {
+  display: flex;
   width: 100%;
   height: 200px;
   align-items: center;
@@ -63,4 +69,43 @@ p.regularizer {
 
 .hero-text {
   margin: 200px;
+}
+
+.container-ft-ex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+}
+
+.features {
+  display: flex;
+}
+
+.features button {
+  height: 50px;
+  width: 100px;
+}
+
+.extra {
+  
+}
+
+.extra-grid {
+  display: flex;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+.extra-grid button {
+  height: 50px;
+  width: 100px;
+}
+
+.card {
+  margin: 50px;
+  
 }
