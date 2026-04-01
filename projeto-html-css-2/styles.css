@@ -103,6 +103,24 @@ p.regularizer {
 .extra-grid button {
   height: 50px;
   width: 100px;
+  background-color: rgb(175, 55, 79);
+  color: white;
+  border-color: white;
+}
+
+.bi.bi-screwdriver {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
+}
+
+.bi.bi-gear {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
+}
+
+.bi.bi-hammer {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
 }
 
 .card {
