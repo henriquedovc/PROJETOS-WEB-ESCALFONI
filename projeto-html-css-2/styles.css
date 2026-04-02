@@ -88,6 +88,9 @@ p.regularizer {
 .features button {
   height: 50px;
   width: 100px;
+  background-color: rgb(175, 55, 79);
+  color: white;
+  border-color: white;
 }
 
 .extra {
@@ -126,4 +129,35 @@ p.regularizer {
 .card {
   margin: 50px;
   
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  font-weight: 200;
+  color: white;
+  margin-top: 100px;
+  opacity: 70%;
+}
+
+.separator-block {
+  display: flex;
+  background-color: white;
+  margin: 40px;
+  height: 1px;
+  width: 50%;
+  opacity: 20%;
+}
+
+.social {
+  display: flex;
+  color: white;
+  margin-top: 50px;
+  gap: 50px;
 }
