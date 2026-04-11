@@ -1,0 +1,159 @@
+* {
+  font-family: oswald, sans-serif;
+}
+
+body {
+  background-color: rgb(34, 20, 3);
+}
+
+.loremips-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-1 {
+  color: white;
+}
+
+.subtitle-1 {
+  color: white;
+  font-size: 10px;
+  margin-top: -15px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  background-color: none;
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+  transition: 1s;
+}
+
+.button:hover {
+  background-color: rgb(175, 55, 79);
+}
+
+p.regularizer {
+  margin: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background-color: rgb(2034, 96, 59);
+}
+
+.hero-text {
+  margin: 200px;
+}
+
+.container-ft-ex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+}
+
+.features {
+  display: flex;
+}
+
+.features button {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(175, 55, 79);
+  color: white;
+  border-color: white;
+}
+
+.extra-grid {
+  display: flex;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+.extra-grid button {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(175, 55, 79);
+  color: white;
+  border-color: white;
+}
+
+.bi.bi-screwdriver {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
+}
+
+.bi.bi-gear {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
+}
+
+.bi.bi-hammer {
+  font-size: 75px;
+  color: rgb(93, 50, 16);
+}
+
+.card {
+  margin: 50px;
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  font-weight: 200;
+  color: white;
+  margin-top: 100px;
+  opacity: 70%;
+}
+
+.separator-block {
+  display: flex;
+  background-color: white;
+  margin: 40px;
+  height: 1px;
+  width: 50%;
+  opacity: 20%;
+}
+
+.social {
+  display: flex;
+  color: white;
+  margin-top: 50px;
+  gap: 50px;
+}
