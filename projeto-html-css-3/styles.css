@@ -65,11 +65,11 @@ nav a:hover {
   top: 30%;
   left: 30px;
   color: white;
-  text-shadow: 2px 2px 5px #333;
 }
 
 .hero-text h2 {
   font-size: 3rem;
+  text-shadow: 2px 2px 5px #333;
 }
 
 .hero-text p {
