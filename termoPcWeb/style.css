@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  background: radial-gradient(circle at top, #4a90e2, #1f3c88 70%);
+  /* background: radial-gradient(circle at top, #6fb1fc, #4364f7 70%);
+  background: radial-gradient(circle at top, #5dade2, #2e86c1 70%);
+  background: radial-gradient(circle at top, #3a7bd5, #3a6073 70%); */
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 42px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 65px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.grid li {
+  list-style: none;
+}
+
+.caixaLetra {
+  width: 65px;
+  height: 65px;
+  border: 2px solid #3a3a3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #121213;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.caixaLetra:hover {
+  transform: scale(1.05);
+}
+
+.correto {
+  background: #538d4e;
+  border: none;
+  color: white;
+}
+
+.existeMasErrado {
+  background: #b59f3b;
+  border: none;
+  color: white;
+}
+
+.naoTem {
+  background: #3a3a3c;
+  border: none;
+  color: white;
+}
+
+input {
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+button {
+  padding: 12px 22px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background: #538d4e;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #6aaa64;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#mensagem {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+.sucesso {
+  color: #6aaa64;
+}
+
+.erro {
+  color: #ff6b6b;
+}
