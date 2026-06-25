@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Filmes e Países</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app_apis.js" defer></script>
+</head>
+<body>
+    <h1>Consulta de APIs Globais</h1>
+    
+    <div style="margin: 20px auto; width: 960px; font-family: Arial, sans-serif;">
+        <label for="apiKey">Chave da API do Filme (OMDb/IMDb): </label>
+        <input type="password" id="apiKey" placeholder="Insira sua chave protetora aqui...">
+        
+        <br><br>
+        
+        <input type="text" id="buscaInput" placeholder="Digite um filme ou país...">
+        <button id="btnFilme">Buscar Filme</button>
+        <button id="btnPais">Buscar País</button>
+    </div>
+
+    <div class="catalogo" id="resultados"></div>
+</body>
+</html>

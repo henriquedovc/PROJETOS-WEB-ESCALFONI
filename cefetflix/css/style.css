@@ -1,0 +1,110 @@
+.catalogo {
+    display: flex;
+    margin: auto;
+    width: 960px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.filme {
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 460px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.filme_header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.filme_poster {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+.filme_nome {
+    flex-grow: 1;
+}
+.filme_nome h3 {
+    font-weight: normal;
+    font-size: 1.1em;
+    margin: 0;
+}
+.filme_nome p {
+    font-size: .7em;
+    margin: 0;
+    line-height: 1.5;
+}
+.filme_nome ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    font-size: .9em;
+    margin: 0;
+    line-height: 1.5;
+    gap: 5px;
+}
+.filme_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.filme_classificacao {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.filme_pontuacao {
+    font-size: 0.8em;
+    color: #ffb400;
+    white-space: nowrap;
+}
+.filme_descricao {
+    font-size: .85em;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+.filme_similares {
+    font-size: .9em;
+    margin: 5px 0;
+}
+.filme_posters_similares {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    gap: 10px;
+}
+.filme_posters_similares img {
+    width: 110px;
+    height: 80px;
+    object-fit: cover;
+}
+.livre {
+    background-color: rgb(6, 153, 6);
+    color: #fff;
+}
+.anos_10 {
+    background-color: rgb(47, 147, 208);
+    color: #fff;
+}
+.anos_14 {
+    background-color: rgb(255, 153, 0);
+    color: #fff;
+}
+.anos_16 {
+    background-color: #f00;
+    color: #fff;
+}
+.anos_18 {
+    color: #fff;
+    background-color: #000;
+}
