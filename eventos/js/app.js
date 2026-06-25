@@ -4,7 +4,7 @@ const btnCadastrar = document.getElementById("btnCadastrar");
 const listaEventos = document.getElementById("listaEventos");
 const estatisticas = document.getElementById("estatisticas");
 
-// Função para cadastrar evento
+
 function cadastrarEvento() {
   const titulo = document.getElementById("titulo").value.trim();
   const local = document.getElementById("local").value.trim();
@@ -13,7 +13,7 @@ function cadastrarEvento() {
   const data = new Date(document.getElementById("data").value);
   const ativo = document.getElementById("ativo").checked;
 
-  // Validações
+
   if (titulo === "" || local === "") {
     alert("Título e local são obrigatórios.");
     return;
@@ -29,7 +29,7 @@ function cadastrarEvento() {
     return;
   }
 
-  // Criando objeto evento
+
   const evento = {
     titulo: titulo,
     local: local,
@@ -48,7 +48,6 @@ function cadastrarEvento() {
   mostrarEstatisticas();
 }
 
-// Listar eventos
 function listarEventos() {
   listaEventos.innerHTML = "";
 
@@ -64,12 +63,11 @@ function listarEventos() {
       <p><strong>Status:</strong> ${evento.ativo ? "Ativo" : "Inativo"}</p>
     `;
 
-    // Observações indefinidas
+   
     if (evento.observacao === undefined) {
       div.innerHTML += `<p>Evento não possui observações cadastradas.</p>`;
     }
 
-    // Evento cancelado
     if (evento.cancelamento !== null) {
       div.innerHTML += `
         <p><strong>Evento cancelado.</strong></p>
@@ -81,7 +79,7 @@ function listarEventos() {
   });
 }
 
-// Mostrar estatísticas
+
 function mostrarEstatisticas() {
   const eventosAtivos = eventos.filter(evento => evento.ativo);
 
@@ -97,7 +95,7 @@ function mostrarEstatisticas() {
   `;
 }
 
-// Limpar formulário
+
 function limparCampos() {
   document.getElementById("titulo").value = "";
   document.getElementById("local").value = "";
@@ -107,5 +105,4 @@ function limparCampos() {
   document.getElementById("ativo").checked = false;
 }
 
-// Evento do botão
 btnCadastrar.addEventListener("click", cadastrarEvento);
